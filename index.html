@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="H4 Electrical - Your local partner in electrical fault finding, rewiring, new installations, and general electrical repairs.">
+    <title>H4 Electrical | Local Electrical Experts</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Loading Animation -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <i class="fa-solid fa-bolt"></i> H4<span>Electrical</span>
+            </a>
+            
+            <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#why-us">Why Us</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="btn btn-primary nav-btn">Get a Quote</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content reveal">
+            <h1>Your Local <span class="accent-text">Electrical Experts</span></h1>
+            <p>High-quality service delivery at affordable rates. No job is too big or too small — if it matters to you, it matters to us.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get a Quote</a>
+                <a href="tel:+1234567890" class="btn btn-outline">Call Now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container about-grid">
+            <div class="about-text reveal">
+                <span class="section-subtitle">Who We Are</span>
+                <h2>We believe the smallest things make the <span class="accent-text">biggest difference.</span></h2>
+                <p>H4 Electrical is your trusted local partner for all your electrical needs. We guide our clients from the very beginning to the end of their projects — from the initial design stages of new builds to the safe and professional rewiring of existing properties.</p>
+                <p>We also proudly support contractors with expert electrical requirements for small to medium building projects. Our customer-first mindset ensures that we deliver reliable, high-quality workmanship every single time.</p>
+                <ul class="about-list">
+                    <li><i class="fa-solid fa-check"></i> Over a decade of proven experience</li>
+                    <li><i class="fa-solid fa-check"></i> Fully licensed and insured</li>
+                    <li><i class="fa-solid fa-check"></i> Committed to safety and compliance</li>
+                </ul>
+            </div>
+            <div class="about-image reveal delay-1">
+                <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=800&q=80" alt="Electrician working on a panel">
+                <div class="experience-badge">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <span>End-to-End<br>Solutions</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section bg-darker">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">What We Do</span>
+                <h2>Our Electrical Services</h2>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service Card 1 -->
+                <div class="service-card reveal">
+                    <div class="icon-box"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                    <h3>Fault Finding</h3>
+                    <p>Expert diagnostics to locate and resolve electrical issues safely and efficiently.</p>
+                </div>
+                
+                <!-- Service Card 2 -->
+                <div class="service-card reveal delay-1">
+                    <div class="icon-box"><i class="fa-solid fa-house-chimney"></i></div>
+                    <h3>Rewiring</h3>
+                    <p>Safe and professional rewiring for both new builds and existing older properties.</p>
+                </div>
+                
+                <!-- Service Card 3 -->
+                <div class="service-card reveal delay-2">
+                    <div class="icon-box"><i class="fa-solid fa-plug-circle-plus"></i></div>
+                    <h3>New Installations</h3>
+                    <p>Complete installation services from design stages through to final sign-off.</p>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="service-card reveal">
+                    <div class="icon-box"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <h3>General Repairs</h3>
+                    <p>Fast and reliable repairs for all household and commercial electrical components.</p>
+                </div>
+
+                <!-- Service Card 5 -->
+                <div class="service-card reveal delay-1">
+                    <div class="icon-box"><i class="fa-solid fa-clipboard-check"></i></div>
+                    <h3>Inspections</h3>
+                    <p>Comprehensive electrical safety inspections for peace of mind and compliance.</p>
+                </div>
+
+                <!-- Service Card 6 -->
+                <div class="service-card reveal delay-2">
+                    <div class="icon-box"><i class="fa-solid fa-arrow-down-up-across-line"></i></div>
+                    <h3>Overhead to Underground</h3>
+                    <p>Seamless conversions including all necessary trenching and service work.</p>
+                </div>
+
+                <!-- Service Card 7 -->
+                <div class="service-card reveal">
+                    <div class="icon-box"><i class="fa-solid fa-bolt-lightning"></i></div>
+                    <h3>Private Pole Work</h3>
+                    <p>Installation, maintenance, and repair of private power poles on your property.</p>
+                </div>
+
+                <!-- Service Card 8 -->
+                <div class="service-card reveal delay-1">
+                    <div class="icon-box"><i class="fa-solid fa-lightbulb"></i></div>
+                    <h3>Lighting & Power</h3>
+                    <p>Upgrades and additions for power points, LED lighting, and outdoor fixtures.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-us" class="why-us section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">The H4 Difference</span>
+                <h2>Why Choose Us</h2>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-item reveal">
+                    <i class="fa-solid fa-tags"></i>
+                    <h4>Affordable Rates</h4>
+                    <p>Premium service delivery that won't break the bank.</p>
+                </div>
+                <div class="feature-item reveal delay-1">
+                    <i class="fa-solid fa-award"></i>
+                    <h4>Quality Workmanship</h4>
+                    <p>Meticulous attention to detail on every single job.</p>
+                </div>
+                <div class="feature-item reveal delay-2">
+                    <i class="fa-solid fa-clock"></i>
+                    <h4>Reliable & On Time</h4>
+                    <p>We respect your time and always show up when promised.</p>
+                </div>
+                <div class="feature-item reveal">
+                    <i class="fa-solid fa-handshake"></i>
+                    <h4>End-to-End Support</h4>
+                    <p>Guiding you from initial design to project completion.</p>
+                </div>
+                <div class="feature-item reveal delay-1">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h4>Local & Trusted</h4>
+                    <p>Your friendly neighborhood electricians you can rely on.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section bg-darker">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">Our Work</span>
+                <h2>Recent Projects</h2>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1544724569-5f546fd6f2b6?auto=format&fit=crop&w=600&q=80" alt="Modern Lighting Installation">
+                    <div class="gallery-overlay"><span>Lighting Upgrades</span></div>
+                </div>
+                <div class="gallery-item reveal delay-1">
+                    <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=600&q=80" alt="Switchboard Upgrade">
+                    <div class="gallery-overlay"><span>Panel Upgrades</span></div>
+                </div>
+                <div class="gallery-item reveal delay-2">
+                    <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1?auto=format&fit=crop&w=600&q=80" alt="New Build Wiring">
+                    <div class="gallery-overlay"><span>New Build Wiring</span></div>
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80" alt="Home Interior Rewiring">
+                    <div class="gallery-overlay"><span>Home Rewiring</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner reveal">
+        <div class="container cta-content">
+            <h2>Need electrical work done right the first time?</h2>
+            <p>Contact H4 Electrical today for a free, no-obligation quote on your next project.</p>
+            <a href="#contact" class="btn btn-primary btn-large">Request a Quote</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container contact-grid">
+            <div class="contact-info reveal">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2>Ready to start your project?</h2>
+                <p>Fill out the form or reach out to us directly. We're here to help with all your electrical needs.</p>
+                
+                <ul class="info-list">
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h4>Call Us</h4>
+                            <a href="tel:+1234567890">021 000 0000</a>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h4>Email Us</h4>
+                            <a href="mailto:info@h4electrical.co.nz">info@h4electrical.co.nz</a>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-facebook"></i>
+                        <div>
+                            <h4>Follow Us</h4>
+                            <a href="https://www.facebook.com/h4electrical/" target="_blank">H4 Electrical on Facebook</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="contact-form-wrapper reveal delay-1">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">How can we help?</label>
+                        <textarea id="message" rows="5" placeholder="Describe your electrical needs..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#home" class="logo">
+                    <i class="fa-solid fa-bolt"></i> H4<span>Electrical</span>
+                </a>
+                <p>Your local partner in high-quality, affordable electrical services. No job too big or too small.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i> <a href="tel:+1234567890">021 000 0000</a></li>
+                    <li><i class="fa-solid fa-envelope"></i> <a href="mailto:info@h4electrical.co.nz">info@h4electrical.co.nz</a></li>
+                    <li><i class="fa-brands fa-facebook"></i> <a href="https://www.facebook.com/h4electrical/" target="_blank">Facebook Page</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> H4 Electrical. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
